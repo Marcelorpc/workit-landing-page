@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --font-family-heading-L: font-family: 'Fraunces', serif;
+  --font-weight-heading-L: 600;
+  --font-size-heading-L: 8rem;
+  --line-height-heading-L: 8rem;
+
+  --font-family-heading-M: font-family: 'Fraunces', serif;
+  --font-weight-heading-M: 600;
+  --font-size-heading-M: 5.6rem;
+  --line-height-heading-M: 6.4rem;
+
+  --font-family-heading-S: font-family: 'Fraunces', serif;
+  --font-weight-heading-S: 600;
+  --font-size-heading-S: 3.2rem;
+  --line-height-heading-S: 4rem;
+
+  --base-color-primary: #44FFA1;
+  --base-color-secondary: #584D62;
+  --base-color-terciary: #FFFFFF;
+  --background-color-primary: #24053E;
+  --background-color-secondary: #FCF8FF;
+}
