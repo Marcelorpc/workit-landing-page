@@ -1,0 +1,67 @@
+header {
+  height: 50rem;
+  position: relative;
+  background-color: var(--background-color-primary);
+  border-bottom-left-radius: 100% 5%;
+  border-bottom-right-radius: 100% 5%;
+}
+
+header nav {
+  width: 100%;
+  margin-bottom: 3.2rem;
+  padding: 3.2rem 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--base-color-terciary);
+  text-decoration: none;
+  border-bottom: 3px solid var(--background-color-terciary);
+}
+
+.mainTitle {
+  margin-bottom: 6.4rem;
+  padding: 1.6rem;
+  display: grid;
+  place-items: center;
+  gap: 4rem;
+}
+
+.mainTitle h1 {
+  text-align: center;
+  font-family: var(--font-family-heading-S);
+  font-size: var(--font-size-heading-S);
+  font-weight: var(--font-weight-heading-S);
+  line-height: var(--line-height-heading-S);
+
+  color: var(--base-color-terciary);
+}
+
+.mainTitle h1 span {
+  font-family: var(--font-family-heading-S);
+  font-size: var(--font-size-heading-S);
+  font-weight: var(--font-weight-heading-S);
+  line-height: var(--line-height-heading-S);
+
+  border-bottom: 3px solid var(--background-color-terciary);
+}
+
+.mainButton {
+  padding: 1.2rem 2.4rem;
+  color: black;
+  font-weight: 700;
+  background-color: var(--background-color-terciary);
+  border: none;
+}
+
+.smartphone {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  transform: translateY(50%);
+}
