@@ -33,3 +33,14 @@
   --background-color-secondary: #FCF8FF;
   --background-color-terciary: #44FFA1;
 }
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--background-color-terciary);
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(--background-color-terciary);
+}
