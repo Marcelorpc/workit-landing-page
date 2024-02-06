@@ -1,0 +1,23 @@
+footer {
+  margin-block: 7rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+
+.linksList {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+
+.linksList li a {
+  transition: all 0.2s;
+}
+
+.linksList li a:hover {
+  cursor: pointer;
+  filter: contrast(10);
+}
