@@ -1,0 +1,36 @@
+.benefits {
+  margin-inline: auto;
+  padding: 12rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  background-color: var(--background-color-secondary);
+  border-bottom-left-radius: 100% 5%;
+  border-bottom-right-radius: 100% 5%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper span {
+  padding: 0 3.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.6;
+
+  border: 2px solid #584D62;
+  border-radius: 50%;
+}
+
+.wrapper h2 {
+  font-size: 2.8rem;
+  line-height: 3.6;
+}
+
+.wrapper p {
+  text-align: center;
+}
